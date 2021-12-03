@@ -3,11 +3,8 @@
 body{
     background-color: #eee;
     font-family: Source Sans Pro;
+    margin-right: auto;
     
-    padding-right: 350px;
-    padding-left: 350px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
 }
 
@@ -16,9 +13,6 @@ body{
     border-radius: 8px;
     width: 700px;
     box-shadow: 4px 4px 4px #ddd;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
     background-color: white;
     font-family: Roboto Slab;
     text-align: justify;
@@ -50,17 +44,14 @@ ul{
 
 .more-articles{
     
-    display: flex;
-    width: 300px;
+    display: inline-block;
     border-top:1px solid #777 ;
     text-align: justify;
-    padding-right: 10px 0 0 10px;
     justify-content: space-between;
     
 }
 .tabs{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block
 }
 .add-article{
     display: inline-block;
