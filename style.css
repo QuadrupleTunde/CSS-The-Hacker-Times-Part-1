@@ -3,7 +3,10 @@
 body{
     background-color: #eee;
     font-family: Source Sans Pro;
-    margin-right: auto;
+    margin-right:550px;
+    margin-left: 550px;
+    
+    
     
 
 }
@@ -15,6 +18,10 @@ body{
     box-shadow: 4px 4px 4px #ddd;
     background-color: white;
     font-family: Roboto Slab;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
     text-align: justify;
 
 }
@@ -45,13 +52,17 @@ ul{
 .more-articles{
     
     display: inline-block;
-    border-top:1px solid #777 ;
-    text-align: justify;
-    justify-content: space-between;
-    
+    border-top:1px solid #777 ; 
 }
+
 .tabs{
-    display: inline-block
+    width: 100%;
+}
+section{
+    float: left;
+    width: 49%;
+    text-align: justify;
+    padding-right: 7px;  
 }
 .add-article{
     display: inline-block;
