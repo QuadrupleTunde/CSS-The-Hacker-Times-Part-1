@@ -3,10 +3,11 @@
 body{
     background-color: #eee;
     font-family: Source Sans Pro;
-    margin-right:550px;
-    margin-left: 550px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
-    
+    width: 700px;
     
 
 }
@@ -33,8 +34,13 @@ h1{
 h5{
     color: #dd3232;
 }
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
 li{
-    list-style-type: none;
+
     display: inline-block;
     text-decoration: none;
     margin-left:auto;
